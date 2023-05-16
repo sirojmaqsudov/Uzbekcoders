@@ -6,7 +6,7 @@ const TestYourKnowledge = () => {
     return (
         <div className='TestYourKnowledge'>
             <h1 className='text-2xl'>Test Your Knowledge</h1>
-            <div className="flex space-x-2 mt-2">
+            <div className="grid grid-cols-4">
                 <Code code={CODE3} url='https://cdna.artstation.com/p/assets/images/images/051/677/778/large/alexey-1.jpg?1657889349' text='#1'/>
                 <Code code={CODE4} url='https://cdna.artstation.com/p/assets/images/images/051/677/778/large/alexey-1.jpg?1657889349' text='#2'/>
                 <Code code={CODE5} url='https://cdna.artstation.com/p/assets/images/images/051/677/778/large/alexey-1.jpg?1657889349' text='#3'/>
